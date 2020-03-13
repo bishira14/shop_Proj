@@ -1,0 +1,41 @@
+body{
+  min-height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-family: arial;
+  background:url('img/bcg.jpg')center/cover;
+}
+.landing_box{
+ height: 50vh;
+ width: 90vh;
+ background-color: rgb(255,255,255,0.5);
+ position:relative;
+}
+.landing_box h1{
+  position:absolute;
+  top:40%;
+  left:43%;
+}
+.landing_box button{
+  background-color:rgba(0, 0, 0,0.8);
+  color: white;
+  font-size:0.8rem;
+  border:none;
+  outline:none;
+  width:70px;
+  cursor: pointer;
+}
+.landing_box button:hover{
+  background-color:rgba(0, 0, 0,1);
+}
+.men_button{
+  position: absolute;
+  transform:translate(0,-18px);
+
+}
+.women_button{
+  position:absolute;
+  right:0;
+  transform: translate(0,-18px);
+}
