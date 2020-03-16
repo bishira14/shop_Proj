@@ -7,15 +7,20 @@ body{
   background:url('img/bcg.jpg')center/cover;
 }
 .landing_box{
- height: 50vh;
- width: 90vh;
+ height: 360.5px;
+ width: 652.8px;
  background-color: rgb(255,255,255,0.5);
  position:relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 .landing_box h1{
-  position:absolute;
-  top:40%;
-  left:43%;
+    position:absolute;
+  /* top:40%;
+  left:43%; */ */
+
+
 }
 .landing_box button{
   background-color:rgba(0, 0, 0,0.8);
@@ -32,10 +37,12 @@ body{
 .men_button{
   position: absolute;
   transform:translate(0,-18px);
-
+  top:0;
+  left:0;
 }
 .women_button{
   position:absolute;
+  top:0;
   right:0;
   transform: translate(0,-18px);
 }
