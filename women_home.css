@@ -7,13 +7,13 @@ body{
   font-family: arial;
 }
 .navbar{
-  height:15vh;
   width:100vw;
   background-color: white;
   position:fixed;
   display:flex;
   justify-content:space-around;
   align-items: center;
+  padding:40px 2px;
   flex-wrap: wrap;
 }
 .navbar ul li{
