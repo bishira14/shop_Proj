@@ -17,10 +17,7 @@ body{
 }
 .landing_box h1{
     position:absolute;
-  /* top:40%;
-  left:43%; */ */
-
-
+    padding-bottom: 35px;
 }
 .landing_box button{
   background-color:rgba(0, 0, 0,0.8);
